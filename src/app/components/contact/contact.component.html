@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="formCont">
+        <form [formGroup]="cntForm">
+            <h1>Contact Me</h1>
+            <div class="form">
+                <input type="email" placeholder="Email" class="email" formControlName="email" required>
+            </div>
+            <div class="form">
+                <textarea name="message" placeholder="Message" class="message"></textarea>
+            </div>
+                <button type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Send</button>
+        </form>
+        <div class="iconCont">
+            <a href="https://api.whatsapp.com/send?phone=573228806930" target="_blank"><img class="icon" src="/assets/LogoWhatsapp.webp" alt="Whatsapp" matTooltip="Text Me"></a>
+            <a href="https://www.linkedin.com/in/nvrod/" target="_blank" ><img class="iconLink" src="/assets/LogoLinkedin.png" alt="Linkedin" matTooltip="Contact Me"></a>
+            <a href="mailto:nicolasvalbuenaro@gmail.com"><img class="icon" src="/assets/LogoGmail.png" alt="Gmail" matTooltip="Email Me"></a>
+            <a href="https://github.com/NValRod" target="_blank"><img class="iconLink" src="/assets/LogoGitHub.png" alt="GitHub" matTooltip="Follow Me"></a>
+        </div>
+    </div>
+</div>
+
+<footer>This page was made with Angular <br> All Rights Reserved</footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4>Your message was sended, Thanks!</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

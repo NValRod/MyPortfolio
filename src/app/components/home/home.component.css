@@ -1,0 +1,34 @@
+
+.container{
+    background-image: url(/assets/bg.jpg);
+    background-color: rgb(33,37,41);
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    width: 100%;
+    min-height: 45.5rem;
+    display: flex;
+    background-attachment:fixed;
+}
+
+h1{
+    color: var(--amarillo);
+}
+.subCont{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -5em;
+}
+
+@media screen and (min-width:305px) and (max-width:480px){
+    .subCont{
+        margin-top: -7em;
+    }
+}

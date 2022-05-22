@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --gris:#28242c;
+  --azul:#3c4f65;
+  --amarillo:#FFD37F;
+  --blanco:#e6f5ff;
+  --vino:#834c69;
+  --principal: 'Nunito, sans-serif';
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1{
+  font-family: 'Acme', sans-serif;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.custom-tool{
+  font-size: .8em;
+  background-color:rgba(40, 36, 44, 0.71); 
+}
+
+

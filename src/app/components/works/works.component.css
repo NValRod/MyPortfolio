@@ -1,0 +1,273 @@
+
+.container{
+    background-color: var(--amarillo);
+    height: 45.5em;
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-image: url('/assets/exp.png');
+    background-size: 35em;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 0em 6em;
+}
+
+.infoCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40em;
+    margin-right: 2em;
+    font-weight: 900;
+    background-size: 10em 10em;
+}
+
+.title{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: -3em;
+}
+
+.expCont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -6em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+
+.main_cont{
+    position: relative;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    cursor:pointer;
+}
+.image{
+    display: block;
+    width: 20em;
+    height: 14em;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(40, 36, 44, 0.71);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+}
+
+.main_cont:hover .overlay{
+    height: 14em;
+    border-radius: 10px;
+}
+
+.overlay h2{
+    width: 100%;
+    margin-top: 10%;
+    color: var(--blanco);
+    font-size: 1.6em;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-2deg)skewX(-2deg);
+}
+.overlay p{
+    text-align: center;
+    color: var(--blanco);
+    font-size: 1.2em;
+    margin: 25% 0 0 0;
+    width: 100%;
+}
+
+.btnCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+button{
+    font-weight: 600;
+    background-color: var(--amarillo);
+    box-shadow:var(--azul) 4px 4px 0px;
+    border-radius: 5px;
+    transition:transform 200ms,box-shadow 200ms;
+    border: 2px solid var(--azul);
+    width: 6em;
+    height: 2.5em;
+    margin-left: .8em;
+    margin-right: .8em;
+    cursor: alias;
+  }
+  
+  button:active{
+    transform:translateY(4px)translateX(4px);
+    box-shadow:var(--azul) 0px 0px 0px;
+  }
+
+            /* MEDIA QUERYS */
+
+/* laptops screens*/
+  @media screen and (min-width:780px) and (max-width:1024px){
+    .container{
+        background-position: 14em 6em;
+        height: 40em;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 2em;
+    }
+
+    .expCont{
+        margin-left: -7em;
+    }
+
+    .title{
+        margin-left: -5.5em;
+    }
+
+    .image{
+        width: 21em;
+    }
+
+    .overlay{
+        width: 85%;
+    }
+}
+
+/* Tablet screens*/
+@media screen and (min-width:520px) and (max-width:780px){
+    .container{
+        background-position: 7em 6em;
+        height: 40em;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 2em;
+    }
+
+    .expCont{
+        margin-left: -12em;
+        margin-right: -1em;
+    }
+
+    .title{
+        margin-top: 2.5em;
+        margin-left: -6.6em;
+    }
+
+    .image{
+        width: 19em;
+    }
+
+    .overlay{
+        width: 94%;
+    }
+}
+
+/* smartphone screen */
+@media screen and (min-width:425px) and (max-width:520px){
+    .container{
+        background-position: 7em 6em;
+        height: 70em;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 2em;
+    }
+
+    .expCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: -11.5em;
+        margin-right: -1em;
+    }
+
+    .title{
+        margin-left: -6.6em;
+    }
+
+    .image{
+        width: 19em;
+    }
+
+    .overlay{
+        width: 97%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:424px){
+    .container{
+        background-position: -1em 6em;
+        height: 70em;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 2em;
+    }
+
+    .expCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: -13em;
+        margin-right: -1em;
+    }
+
+    .title{
+        margin-left: -7.6em;
+    }
+
+    .image{
+        width: 19em;
+    }
+
+    .overlay{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:374px){
+    .container{
+        background-position: -1em 6em;
+        height: 70em;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15em;
+        margin-right: 2em;
+    }
+
+    .expCont{
+        display: flex;
+        flex-direction: column;
+        margin-left: -13.5em;
+        margin-right: -1em;
+    }
+
+    .title{
+        margin-left: -7.5em;
+    }
+
+    .image{
+        width: 16em;
+    }
+
+    .overlay{
+        width: 100%;
+    }
+}

@@ -1,0 +1,211 @@
+.container-fluid{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;  
+    color:var(--blanco);
+}
+
+nav{
+    position:fixed;
+    font-family:'Acme', sans-serif;
+    max-width: 100%;
+    width: 100%;
+    z-index: 2;
+    overflow: visible;
+}
+
+.navbar-brand:hover{
+    color: var(--amarillo);
+}
+
+.navbar-brand{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blanco);
+}
+
+.navbar-brand::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background:var(--amarillo);
+    transition: width .3s;
+}
+
+.navbar-brand:hover::after {
+    width: 100%;
+}
+
+.cv{
+    position: absolute;
+    right: 5em;
+}
+
+.iconCont{
+    display: flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.myIcon{
+    font-size:26px;
+}
+
+label{
+    font-size: 15px; 
+    margin-top:-2px;
+}
+
+button{
+    font-weight: 600;
+    background-color: var(--amarillo);
+    box-shadow:var(--azul) 4px 4px 0px;
+    border-radius: 5px;
+    transition:transform 200ms,box-shadow 200ms;
+    border: 2px solid var(--azul);
+    width: 7.5em;
+    height: 2.4em;
+    margin: 0 0;
+  }
+  
+  button:active{
+    transform:translateY(4px)translateX(4px);
+    box-shadow:var(--azul) 0px 0px 0px;
+  }
+
+           /* MEDIA QUERYS */
+
+/* laptops screens*/
+ @media screen and (min-width:780px) and (max-width:1024px){
+    nav{
+        margin: 0 -5em 0 0;
+        overflow-x:hidden;
+     }
+}
+
+/* Tablet screens*/
+@media screen and (min-width:480px) and (max-width:780px){
+    nav{
+        margin: 0 -5em 0 0;
+        overflow-x:hidden;
+     }
+     .cv{
+        position: absolute;
+        right: 2.5em;
+    }
+}
+
+/* smartphone screen */
+@media screen and (min-width:425px) and (max-width:520px){
+    nav{
+        margin: 0 -5em 0 0;
+        overflow-x:hidden;
+        height: 3em;
+     }
+     .container-fluid{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: .5em;  
+    }
+    .cv{
+        position: initial;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .iconCont{
+        width: 3em;
+        margin-top: -7px;
+        margin-bottom: -5px;
+    }
+    .myIcon{
+        font-size:20px;
+    }
+    label{
+        font-size: 15px; 
+        margin-top:-2px;
+    }
+    button{
+        width: 3em;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:424px){
+    nav{
+        margin: 0 -5em 0 0;
+        overflow-x:hidden;
+        height: 3em;
+     }
+     .container-fluid{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -.5em;  
+    }
+    .cv{
+        position: initial;
+        margin-right: 0em;
+        margin-left: -.3em;
+    }
+    .iconCont{
+        width: 3em;
+        margin-top: -7px;
+        margin-bottom: -13px;
+    }
+    .myIcon{
+        font-size:20px;
+    }
+    label{
+        font-size: 15px; 
+        margin-top:-2px;
+    }
+    button{
+        width: 3em;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (min-width: 315px) and (max-width:374px){
+    nav{
+        margin: 0 -5em 0 0;
+        overflow-x:hidden;
+        height: 3em;
+     }
+     .container-fluid{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -.5em;  
+    }
+    .cv{
+        position: initial;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+    .iconCont{
+        width: 2.3em;
+        margin-top: -7px;
+        margin-bottom: -13px;
+    }
+    .myIcon{
+        font-size:20px;
+    }
+    label{
+        font-size: 15px; 
+        margin-top:-2px;
+    }
+    button{
+        width: 2.9em;
+        height: 2.3em;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="textCont">
+        <h1 class="title">About Me</h1>
+        <p class="pg">    
+          Im a proactive person, I love tech, Im energetic, I work hard, Im creative, Im passionate about learning, and like to be challenge and do what everyone else says that I cant.
+          My experience with development software is primarily JavaScript and TypeScrip, Im comfortable using frameworks such as React Js and Angular. <br>
+          Im also interested in backend, Im currently studying Ruby on rails, and Sinatra.
+        </p>
+
+        <div>
+          <h1 class="title">What a I like</h1>
+              <ul class="pg1">
+                <li>
+                    I love sports, my favorites are, Tennis, MMA, Basketball and Table tennis.
+                <li>
+                    My hobbies are, playing chess, read, playing table tennis, going out with my dog.
+                </li>
+                <li>
+                    I love history, so I watched documentarys, and also movies that are based on history, I love old ganster and western films.
+                </li>
+                <li>
+                    My favorite movie is Goodfellas.
+                </li>
+                <li>
+                  My hero is Jan Owe Waldner.
+                </li>
+              </ul>  
+        </div>
+    </div>
+    <div>
+        <h1 class="title titleUp">My Skills</h1>
+        <ngb-carousel *ngIf="images" class="logoCont">
+            <ng-template ngbSlide>
+              <div>
+                <img [src]="images[0]" alt="Logo HMTL" matTooltip="HTML" matTooltipPosition="above" matTooltipClass="custom-tool">
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div>
+                <img [src]="images[1]"  alt="Logo CSS" matTooltip="CSS" matTooltipPosition="above" matTooltipClass="custom-tool">
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div>
+                <img [src]="images[2]" class="logo" alt="Logo JS" matTooltip="JavaScript" matTooltipPosition="above" matTooltipClass="custom-tool">
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div>
+                  <img [src]="images[3]"  class="logo" alt="Logo Angular" matTooltip="Angular" matTooltipPosition="above" matTooltipClass="custom-tool">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div>
+                  <img [src]="images[4]" class="logo"alt="Logo GitHub" matTooltip="GitHub" matTooltipPosition="above" matTooltipClass="custom-tool">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div>
+                  <img [src]="images[5]" class="logo" alt="Logo GIT" matTooltip="Git" matTooltipPosition="above" matTooltipClass="custom-tool">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div>
+                <img [src]="images[6]" class="logo" alt="Logo Bootstrap" matTooltip="Bootstrap" matTooltipPosition="above" matTooltipClass="custom-tool">
+              </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div>
+              <img [src]="images[7]" class="logo" alt="Logo Ruby" matTooltip="Ruby" matTooltipPosition="above" matTooltipClass="custom-tool" >
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div>
+              <img [src]="images[8]" class="logo" alt="Logo MySQL" matTooltip="MySQL" matTooltipPosition="above" matTooltipClass="custom-tool">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div>
+              <img [src]="images[9]" class="logo" alt="Logo React" matTooltip="React" matTooltipPosition="above" matTooltipClass="custom-tool">
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div>
+              <img [src]="images[10]" class="logo" alt="Logo TypeScript" matTooltip="TypeScript" matTooltipPosition="above" matTooltipClass="custom-tool">
+            </div>
+          </ng-template>
+        </ngb-carousel>
+    </div>
+</div>
