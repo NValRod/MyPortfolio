@@ -208,7 +208,7 @@ button{
     }
 }
 
-@media screen and (min-width: 375px) and (max-width:424px){
+@media screen and (min-width: 375px) and (max-width:426px){
     .container{
         background-position: -1em 6em;
         height: 70em;
@@ -216,23 +216,24 @@ button{
     .infoCont{
         display: flex;
         flex-direction: column;
-        margin-left: 15em;
-        margin-right: 2em;
+        justify-content: center;
+        align-items: center;
+        margin: auto 8.5em;
     }
 
     .expCont{
         display: flex;
         flex-direction: column;
-        margin-left: -13em;
-        margin-right: -1em;
+        justify-content: center;
+        align-items: center;
     }
 
     .title{
-        margin-left: -7.6em;
+        margin-left: -4.6em;
     }
 
     .image{
-        width: 19em;
+        width: 20em;
     }
 
     .overlay{
@@ -240,7 +241,7 @@ button{
     }
 }
 
-@media screen and (min-width: 320px) and (max-width:374px){
+@media screen and (min-width: 320px) and (max-width:376px){
     .container{
         background-position: -1em 6em;
         height: 70em;
@@ -248,23 +249,23 @@ button{
     .infoCont{
         display: flex;
         flex-direction: column;
-        margin-left: 15em;
-        margin-right: 2em;
+        justify-content: center;
+        align-items: center;
+        margin: auto 4.5em;
     }
 
     .expCont{
         display: flex;
         flex-direction: column;
-        margin-left: -13.5em;
-        margin-right: -1em;
+        margin: auto -2.5em;
     }
 
     .title{
-        margin-left: -7.5em;
+        margin-left: -0.5em;
     }
 
     .image{
-        width: 16em;
+        width: 18em;
     }
 
     .overlay{

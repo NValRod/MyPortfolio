@@ -111,8 +111,8 @@ img{
     .container{
         display: flex;
         flex-direction: column;
-        background-position-y: 41em;
-        background-position-x: -4em;
+        background-position-y: 43.5em;
+        background-position-x: -3.5em;
         background-size: 40em;
         height: 66.5rem;
     }
@@ -151,17 +151,20 @@ img{
     .container{
         display: flex;
         flex-direction: column;
-        background-position-y: 49.5em;
-        background-position-x: -4em;
+        background-position-y: 43.5em;
+        background-position-x: -2em;
         background-size: 34em;
-        height: 70.5rem;
+        height: 67.5rem;
     }
 
     .logoCont{
         width: 20em;
         height: 14em;
         padding-top: 1em;
-        margin-left: 1em;
+        margin: 5em auto;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
     }
     .titleUp{
         margin-bottom: -2.5em;
@@ -191,8 +194,7 @@ img{
     .container{
         display: flex;
         flex-direction: column;
-        background-position-y: 51.8em;
-        background-position-x: -2em;
+        background-position: -1em 47.5em;
         background-size: 27em;
         height: 70.5rem;
     }
@@ -201,7 +203,10 @@ img{
         width: 17em;
         height: 12em;
         padding-top: 1em;
-        margin-left: 1em;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin: 5em 2em;
     }
 
     img{
