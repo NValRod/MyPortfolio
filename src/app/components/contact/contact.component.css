@@ -130,7 +130,7 @@ footer{
 @media screen and (min-width:425px) and (max-width:520px){
     .container{
         background-position: 10em 20em;
-        height: 36em;
+        height: 38em;
         background-size: 25em;
     }
 
@@ -171,7 +171,7 @@ footer{
 @media screen and (min-width: 375px) and (max-width:424px){
     .container{
         background-position: 7em 23em;
-        height: 39.5em;
+        height: 40.5em;
         background-size: 25em;
     }
 
