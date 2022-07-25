@@ -13,7 +13,7 @@
     background-attachment:fixed;
 }
 
-h1{
+.subCont h1{
     color: var(--amarillo);
 }
 .subCont{
@@ -24,8 +24,9 @@ h1{
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: -5em;
+    margin-bottom: 2em;
 }
+
 
 @media screen and (min-width:305px) and (max-width:480px){
     .container{

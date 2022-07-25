@@ -25,14 +25,12 @@
 }
 
 .message{
-    width:30em;
     height: 10em;
     border-radius: 10px;
     border: none;
     outline-color: var(--azul);
 }
 .email{
-    width:30em;
     height: auto;
     border-radius: 5px;
     border: none;
@@ -41,6 +39,11 @@
 
 form h1{
     margin: .5em 0;
+}
+
+form input, textarea {
+    width:30em;
+    padding-left: .5em;
 }
 button{
     font-weight: 600;
@@ -137,14 +140,17 @@ footer{
     }
 
     .message{
-        width:22em;
         height: 10em;
     }
     .email{
-        width:22em;
         height: auto;
     }
 
+
+    form input, textarea{
+        width:22em;
+    }
+    
     button{
         width: 15em;
         height: 2.5em;
@@ -175,14 +181,15 @@ footer{
     }
 
     .message{
-        width:20em;
         height: 15em;
     }
     .email{
-        width:20em;
         height: auto;
     }
 
+    form input, textarea{
+        width:20em;
+    }
     button{
         width: 15em;
         height: 2.5em;
@@ -214,12 +221,14 @@ footer{
     }
 
     .message{
-        width:18em;
         height: 10em;
     }
     .email{
-        width:18em;
         height: auto;
+    }
+
+    form input, textarea{
+        width:18em;
     }
 
     button{
