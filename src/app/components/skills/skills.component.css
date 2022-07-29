@@ -99,7 +99,7 @@ li::marker{
     }
 
     .titleUp{
-        margin-top: 0em;
+        margin-top: 1em;
         margin-left: 1em;
     }
 
@@ -166,20 +166,23 @@ li::marker{
         background-attachment:inherit;
         background-size: 34em;
         height: 67.5rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .logoCont{
-        width: 20em;
+        width: 22em;
         height: 14em;
         padding-top: 1em;
-        margin: 5em auto;
+        margin: 3em 1em;
         display: flex !important;
         justify-content: center;
         align-items: center;
     }
     .titleUp{
         margin-bottom: -2.5em;
-        margin-top: 0;
+        margin-top: .5em;
+        margin-left: 1em;
     }
 
     .pg{
@@ -193,11 +196,15 @@ li::marker{
     }
 
     img{
-        width: 10em;
+        width: 11em;
         height: 12em;
-        margin: auto 5em;
+        margin: auto 6em;
         background-color: white;
         border-radius: 100%;
+    }
+
+    .textCont{
+        margin-top: -4em;
     }
 }
 
@@ -205,29 +212,30 @@ li::marker{
     .container{
         display: flex;
         flex-direction: column;
-        background-position: -1em 47.5em;
+        background-position: -1em 52em;
+        background-attachment:inherit;
         background-size: 27em;
-        height: 70.5rem;
+        height: 71.5rem;
     }
 
     .logoCont{
-        width: 17em;
+        width: 20em;
         height: 12em;
         padding-top: 1em;
         display: flex !important;
         align-items: center;
         justify-content: center;
-        margin: 5em 2em;
+        margin: 1em .5em;
     }
 
     img{
-        width: 8em;
+        width: 10em;
         height: 10em;
-        margin: auto 4.5em;
+        margin: auto 5em;
     }
     .titleUp{
-        margin-bottom: -2.5em;
-        margin-top: 0;
+        margin-bottom: -1.5em;
+        margin-top: .5em;
     }
 
     .pg{
