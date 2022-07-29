@@ -11,7 +11,19 @@
     min-height: 45.5rem;
     display: flex;
     background-attachment:fixed;
+    animation: fadeIn 3s ease;
 }
+
+@keyframes fadeIn{
+    0% {opacity: 0;
+        filter: blur(10px);
+    }
+
+    10%{opacity: 1;
+        filter: brightness(2)blur(5px);
+    }
+}
+
 
 .subCont h1{
     color: var(--amarillo);
