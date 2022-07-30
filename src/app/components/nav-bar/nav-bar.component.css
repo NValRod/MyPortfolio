@@ -175,7 +175,7 @@ button{
         margin-bottom: 0px;
     }
 }
-@media screen and (min-width: 315px) and (max-width:374px){
+@media screen and (min-width: 315px) and (max-width:375px){
     nav{
         margin: 0 -5em 0 0;
         overflow-x:hidden;

@@ -8,6 +8,9 @@
   --principal: 'Nunito, sans-serif';
 }
 
+/* *{
+  outline: 4px solid green !important;
+} */
 html {
     box-sizing: border-box;
   }
